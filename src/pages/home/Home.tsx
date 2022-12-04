@@ -1,5 +1,6 @@
 import React from 'react'
 import emoji from '../../assets/emoji.png'
+import calc from '../../assets/calc.webp'
 import { Project } from './Project'
 
 const Home = () => {
@@ -10,7 +11,11 @@ const Home = () => {
                 url: "sentiment-analyser",
                 image: emoji
             },
-        
+            {
+                name: "Calculator",
+                url: "calc",
+                image: calc
+            },
         ]
 
 
