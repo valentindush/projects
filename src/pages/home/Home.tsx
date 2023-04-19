@@ -16,6 +16,18 @@ const Home = () => {
                 url: "calc",
                 image: calc
             },
+            {
+                name: "Local Notes",
+                url: "https://local-notes-gamma.vercel.app/",
+                image: "https://www.outsystems.com/Forge_CW/_image.aspx/Q8LvY--6WakOw9afDCuuGWXtJ_Nq7PNQ95ZMaS1Ikh4=/task-manager"
+            },
+
+            {
+                name: "Face mesh",
+                url: "facemesh",
+                image: emoji
+            }
+
         ]
 
 

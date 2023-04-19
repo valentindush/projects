@@ -10,7 +10,7 @@ interface propstType {
 
 export const Project = ({ project }: propstType) => {
     return (
-        <Link to={project.url}>
+        <a target='_blank' href={project.url}>
             <div className='border border-gray-300 border-opacity-25 bg-white bg-opacity-[.08] backdrop-blur-xl hover:bg-opacity-10 transition h-[300px] w-[300px] rounded-lg relative'>
                 <div className="mt-5">
                     <img src={project.image} className="w-[70%] h-[70%] object-cover mx-auto" alt="" />
@@ -19,6 +19,6 @@ export const Project = ({ project }: propstType) => {
                     <p className='text-gray-300 text-center text-lg font-medium'>{project.name}</p>
                 </div>
             </div>
-        </Link>
+        </a>
     )
 }
